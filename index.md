@@ -2,7 +2,7 @@
 
 #⎝◕‿◕⎠
 ##快速取得目前網頁的 Markdown 連結的工具
-###說明：
+###說明
 - 因為用了 [Trello.com](http://trello.com) 後來愛上 Markdown。
 可是每次都要自己寫出連結好麻煩。
 所以就用 JavaScript 組合一下網頁標題跟網址，然後輸出成 Markdown 的連結寫法。
