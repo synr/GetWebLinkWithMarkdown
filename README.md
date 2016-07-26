@@ -6,5 +6,5 @@ Get web page link with markdown (+get short link)
 3. 將複製的內容，完全去取代你剛創的書籤的網址列，就完成了。
 
 ##效果
-- 按下去，會跑出 Markdown 格式的這個網頁的連結。
+- 按下去，會跑出 Markdown 格式的這個網頁的連結跳出，讓你可以直接複製。
 
