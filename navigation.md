@@ -2,7 +2,7 @@
 [書籤列工具（bookmarklet）]()
 
   - #我自己亂寫 der XD
-  - [快速取得目前網頁的 Markdown 連結](index.md)
+  - [快速取得目前網頁的 Markdown 連結](markdown_link.md)
   ----
   - #其他
 
