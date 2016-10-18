@@ -148,7 +148,7 @@ javascript: (function() {
             window.clipboardData.setData('Text', markdown_link)
         }
     }
-    console.log(markdown_link)
+    console.log(markdown_link);
 
 
     //if(markdown_link!=null){
