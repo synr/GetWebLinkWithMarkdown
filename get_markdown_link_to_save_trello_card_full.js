@@ -161,7 +161,7 @@ javascript: (function() {
 		    var win = window;
             var desc_format = encodeURIComponent('- ['+markdown_title+']('+markdown_url+')') +  (desc ? encodeURIComponent('\n\n----\n\n ```\n' + desc + '\n```') : '');
 		    //win.open('https://trello.com/add-card' + '?source=' + win.location.host + '&mode=popup' + '&url=' + encodeURIComponent(url) + (name ? '&name=' + encodeURIComponent(name) : '') + (desc ? '&desc=' + encodeURIComponent(desc) : ''), 'add-trello-card', 'width=500,height=600,left=' + (win.screenX + (win.outerWidth - 500) / 2) + ',top=' + (win.screenY + (win.outerHeight - 740) / 2))
-		    win.open('https://trello.com/add-card' + '?source=' + win.location.host + '&mode=popup' + '&url=' + encodeURIComponent(url) + (name ? '&name=' + encodeURIComponent(name) : '') + '&desc=' + desc_format, 'add-trello-card', 'width=500,height=600,left=' + (win.screenX + (win.outerWidth - 500) / 2) + ',top=' + (win.screenY + (win.outerHeight - 740) / 2))
+		    win.open('https://trello.com/add-card' + '?source=' + win.location.host + '&mode=popup' + '&url=' + encodeURIComponent(url) + (name ? '&name=' + encodeURIComponent(name.replace(/\\/g,'')) : '') + '&desc=' + desc_format, 'add-trello-card', 'width=500,height=600,left=' + (win.screenX + (win.outerWidth - 500) / 2) + ',top=' + (win.screenY + (win.outerHeight - 740) / 2))
 		}
 
 	    if (location.href.indexOf('\/\/www\.youtube\.com\/watch\?') != -1) {
